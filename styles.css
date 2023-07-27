@@ -45,6 +45,7 @@ body{
 .equals{
     border: 1px solid rgb(255, 0, 234);
     border-radius: 10px;
+    width: 180px;
 }
 
 .equals:hover{
@@ -54,31 +55,42 @@ body{
 .clear{
     border: 1px solid rgb(0, 183, 255);
     border-radius: 10px;
+    width: 180px;
 }
 
 .clear:hover{
     background-color: rgb(201, 240, 255);
 }
 
-.first-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.delete{
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.delete:hover{
+    background-color: rgb(201, 240, 255);
 }
 
 #screen{
-    width: 300px;
+    width: 400px;
     height: 75px;
     border: 1px solid rgb(248, 173, 102);
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
+    padding: 0px 10px;
 }
 
-.display{
-    font-size: 20px;
+#display{
+    font-size: 30px;
+}
+
+#previous-display{
+    color: rgba(0, 0, 0, 0.75);
 }
 
 
